@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 59.0, 104.0, 845.0, 667.0 ],
+        "rect": [ 441.0, 338.0, 845.0, 667.0 ],
         "boxes": [
             {
                 "box": {
@@ -124,19 +124,6 @@
                     "numoutlets": 0,
                     "patching_rect": [ 205.5, 466.0, 149.0, 48.0 ],
                     "text": "<= Scales the volume of each note \"event\" played back by this poly~ voice.",
-                    "textcolor": [ 0.011765, 0.396078, 0.752941, 1.0 ]
-                }
-            },
-            {
-                "box": {
-                    "fontface": 2,
-                    "id": "obj-19",
-                    "linecount": 18,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 15.875, 193.0, 155.0, 255.0 ],
-                    "text": "Your \"synthesis engine,\" a.k.a. your DSP process (digital signal processing) goes here. \n\nCHALLENGE: Use this basic logic, this \"scaffold\" of a poly~ to build a ring modulator, an AM synth, or a sampler; or any other \"classic synthesis\" process that you may have encountered in Max or another program.\n\nHINT: We already built a ring modulator earlier in this tutorial...",
                     "textcolor": [ 0.011765, 0.396078, 0.752941, 1.0 ]
                 }
             },
@@ -557,6 +544,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 143.25, 597.0, 35.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "out 2"
                 }
             },
@@ -568,6 +559,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 106.25, 597.0, 35.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "out 1"
                 }
             },
@@ -579,10 +574,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 50.75, 597.0, 42.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "out~ 1"
                 }
             },
@@ -595,10 +586,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 51.0, 9.0, 28.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "in 1"
                 }
             },
