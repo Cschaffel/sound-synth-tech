@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1468.0, 849.0 ],
+        "rect": [ 134.0, 134.0, 1468.0, 849.0 ],
         "boxes": [
             {
                 "box": {
@@ -111,28 +111,6 @@
             },
             {
                 "box": {
-                    "id": "obj-21",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 701.4705748558044, 1151.4705662727356, 50.0, 22.0 ],
-                    "text": "0 0 0 0"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-31",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 622.0588116645813, 1151.4705662727356, 50.0, 22.0 ],
-                    "text": "0 0 0 0"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-33",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -152,19 +130,6 @@
                     "numoutlets": 0,
                     "patching_rect": [ 533.8235192298889, 1290.441151857376, 258.0, 34.0 ],
                     "text": "<= Make sure audio is \"on\" by clicking this before you play the bach.roll.",
-                    "textcolor": [ 0.011765, 0.396078, 0.752941, 1.0 ]
-                }
-            },
-            {
-                "box": {
-                    "fontface": 2,
-                    "id": "obj-35",
-                    "linecount": 6,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 58.088234186172485, 1006.6176278591156, 412.0, 89.0 ],
-                    "text": "...But, there are 2 problems with this:\n1. Hear those \"clicks\"? We need a \"cleaner\" synth without clicks; and\n2. Notice we have TWO PARTS above... We should be hearing 2 notes at the same time, and other notes that overalp, but we only get 1 of those notes when we should hear two (this is also called \"monophonic\"). \nWe need a version that will play more than one note at the same time...",
                     "textcolor": [ 0.011765, 0.396078, 0.752941, 1.0 ]
                 }
             },
@@ -929,14 +894,6 @@
         ],
         "parameters": {
             "obj-39": [ "live.gain~", "live.gain~", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
