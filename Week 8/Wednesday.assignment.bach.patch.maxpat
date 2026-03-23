@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 21.0, 114.0, 1468.0, 849.0 ],
+        "rect": [ 34.0, 77.0, 1468.0, 849.0 ],
         "boxes": [
             {
                 "box": {
@@ -71,7 +71,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 627.659569978714, 463.8297839164734, 116.0, 22.0 ],
+                    "patching_rect": [ 595.2539786100388, 460.0, 116.0, 22.0 ],
                     "text": "lg.make-a-voice.v02"
                 }
             },
