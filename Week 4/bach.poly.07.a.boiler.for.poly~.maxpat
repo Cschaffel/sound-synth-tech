@@ -466,7 +466,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 104.5, 334.0, 56.0, 22.0 ],
-                    "text": "3 7800"
+                    "text": "13 7200"
                 }
             },
             {
@@ -755,63 +755,63 @@
                             },
                             {
                                 "key": 1,
-                                "value": [ 3700 ]
+                                "value": [ 1200 ]
                             },
                             {
                                 "key": 2,
-                                "value": [ 5100 ]
+                                "value": [ 5000 ]
                             },
                             {
                                 "key": 3,
-                                "value": [ 7800 ]
+                                "value": [ 600 ]
                             },
                             {
                                 "key": 4,
-                                "value": [ 200 ]
+                                "value": [ 7900 ]
                             },
                             {
                                 "key": 5,
-                                "value": [ 5200 ]
+                                "value": [ 2700 ]
                             },
                             {
                                 "key": 6,
-                                "value": [ 7800 ]
+                                "value": [ 5300 ]
                             },
                             {
                                 "key": 7,
-                                "value": [ 7600 ]
-                            },
-                            {
-                                "key": 8,
-                                "value": [ 0 ]
-                            },
-                            {
-                                "key": 9,
-                                "value": [ 2500 ]
-                            },
-                            {
-                                "key": 10,
                                 "value": [ 400 ]
                             },
                             {
+                                "key": 8,
+                                "value": [ 7400 ]
+                            },
+                            {
+                                "key": 9,
+                                "value": [ 2000 ]
+                            },
+                            {
+                                "key": 10,
+                                "value": [ 4100 ]
+                            },
+                            {
                                 "key": 11,
-                                "value": [ 2400 ]
+                                "value": [ 3300 ]
                             },
                             {
                                 "key": 12,
-                                "value": [ 5500 ]
+                                "value": [ 3400 ]
                             },
                             {
                                 "key": 13,
-                                "value": [ 6800 ]
+                                "value": [ 7200 ]
                             },
                             {
                                 "key": 14,
-                                "value": [ 2500 ]
+                                "value": [ 6100 ]
                             },
                             {
                                 "key": 15,
-                                "value": [ 3200 ]
+                                "value": [ 1500 ]
                             }
                         ]
                     },
@@ -1302,6 +1302,14 @@
             "obj-116": [ "release", "release", 0 ],
             "obj-117": [ "decay", "decay", 0 ],
             "obj-119": [ "sustain", "sustain", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
